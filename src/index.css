@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+  }
+}
+
+.theme-indigo {
+  --color-primary: rgb(79, 70, 229);
+  --color-secondary: rgb(59, 130, 246);
+}
+
+.theme-rose {
+  --color-primary: rgb(225, 29, 72);
+  --color-secondary: rgb(244, 63, 94);
+}
+
+.theme-emerald {
+  --color-primary: rgb(16, 185, 129);
+  --color-secondary: rgb(5, 150, 105);
+}
+
+.theme-amber {
+  --color-primary: rgb(245, 158, 11);
+  --color-secondary: rgb(217, 119, 6);
+}
